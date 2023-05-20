@@ -1,0 +1,20 @@
+{
+	"items": [
+		{
+			"id": "1",
+			"description": "Beautiful castle on the seashore.",
+			"external_url": "http://localhost:3000/items/1",
+			"image": "http://localhost:8080/images/fortress.png",
+			"name": "Fortress",
+			"attributes": []
+		},
+		{
+			"id": "2",
+			"description": "A magical castle in an ancient forest.",
+			"external_url": "http://localhost:3000/items/2",
+			"image": "http://localhost:8080/images/flying-castle.jpg",
+			"name": "Flying Castle",
+			"attributes": []
+		}
+	]
+}

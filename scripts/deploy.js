@@ -16,12 +16,12 @@ async function main() {
 	await bestToken.mintBatch(
 		'0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
 		[1, 2], [100, 1],
-		hre.ethers.utils.solidityPack(['string'], ["HelloWorld!"]));
+		hre.ethers.utils.solidityPack(['string'], ["Entering the first token!"]));
 
 	await bestToken.mintBatch(
 		'0x70997970C51812dc3A010C7d01b50e0d17dc79C8',
 		[1, 2], [1, 100],
-		hre.ethers.utils.solidityPack(['string'], ["HelloWorld!"]));
+		hre.ethers.utils.solidityPack(['string'], ["Entering the second token!"]));
 
 
 	fs.writeFileSync(

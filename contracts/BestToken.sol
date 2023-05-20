@@ -14,7 +14,7 @@ contract BestToken is
     ERC1155Burnable,
     ERC1155Supply
 {
-    constructor() ERC1155("http://localhost:8080/items/{id}.json") {}
+    constructor() ERC1155("http://localhost:3000/items/{id}") {}
 
     function setURI(string memory newuri) public onlyOwner {
         _setURI(newuri);
